@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Triangles</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="heading">Try Triangles</h1>
+    <div class="questions">
+        <h3 class="heading">Enter 3 angles to know if they make a triangle.</h3>
+        <form class="angles">
+            <div>
+                <input type="text" id="angle_one"  />
+            </div>
+            <div>
+                <input type="text" id="angle_two" />
+            </div>
+            <div>
+                <input type="text" id="angle_three" />
+            </div>
+            <button id="btn-submit">Submit</button>
+        </form>
+        <div class="output">
+
+        </div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">Will these angles make an obtuse angle traingle?(100, 40, 40)</h3>
+        <button class="yes1">Yes</button>
+        <button class="no1">No</button>
+        <div class="output1"></div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">Will these angles make a right angle traingle?(30, 60, 90)</h3>
+        <button class="yes2">Yes</button>
+        <button class="no2">No</button>
+        <div class="output2"></div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">Will these angles make an acute angle traingle?(60, 80, 90)</h3>
+        <button class="yes3">Yes</button>
+        <button class="no3">No</button>
+        <div class="output3"></div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">What will be the third angle to make a triangle?(120, 35, ?)</h3>
+        <button class="op1">40</button>
+        <button class="op2">25</button>
+        <button class="op3">35</button>
+        <button class="op4">55</button>
+        <div class="output4"></div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">will these angles make an Isosceles triangle?(50, 50, 80)</h3>
+        <button class="yes5">Yes</button>
+        <button class="no5">No</button>
+        <div class="output5"></div>
+    </div>
+    <div class="questions">
+        <h3 class="heading">will these angles make an Equilateral triangle?(60, 50, 70)</h3>
+        <button class="yes6">Yes</button>
+        <button class="no6">No</button>
+        <div class="output6"></div>
+    </div>
+
+    <div class="questions">
+        <h3 class="heading">Enter length of 2 sides of a triangle in cm to calculate the length of the hypotenuse.</h3>
+        <form class="angles">
+            <div>
+                <input type="text" id="side_one"  />
+            </div>
+            <div>
+                <input type="text" id="side_two" />
+            </div>
+            <button id="btn-submit1">Submit</button>
+        </form>
+        <div class="output7">
+
+        </div>
+    </div>
+
+    <div class="questions">
+        <h3 class="heading">Enter the length of base and height in cm to calculate the area of a triangle.</h3>
+        <form class="angles">
+            <div>
+                <input type="text" id="base"  />
+            </div>
+            <div>
+                <input type="text" id="height" />
+            </div>
+            <button id="btn-submit2">Submit</button>
+        </form>
+        <div class="output8">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

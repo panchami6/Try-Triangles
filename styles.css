@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7CCD7C;
+}
+
+.questions{
+    border: 1px solid #55AE3A;
+    width: 30%;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.angles{
+    text-align: center;
+    padding: 2rem 0rem;
+    align-content: center;
+}
+
+#angle_one, #angle_two, #side_one, #side_two, #base, #height{
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #55AE3A;
+}
+
+
+#angle_three{
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #55AE3A;
+}
+
+
+#btn-submit, #btn-submit1, #btn-submit2{
+align-items: center;
+padding: 0.3rem 1rem;
+border: none;
+border-radius: 0.3rem;
+background-color: #55AE3A;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.output, .output1, .output2, .output3, .output4, .output5, .output6, .output7, .output8{
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.yes1, .yes2, .yes3, .yes5, .yes6, .no1, .no2, .no3, .no5, .no6, .op1, .op2, .op3, .op4{
+    padding: 0.3rem 1rem;
+    border: none;
+    margin: 1rem 4.5rem;
+    border-radius: 0.3rem;
+    background-color: #55AE3A;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
